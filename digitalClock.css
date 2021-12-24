@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #a6b765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.topContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+#day {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 800;
+    background-color: wheat;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+#month {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 800;
+    background-color: wheat;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+#date {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 800;
+    background-color: wheat;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+#year {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 800;
+    background-color: wheat;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+.mainCotainer {
+    width: 80%;
+    background-color: rgb(201 73 73);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+#hourContainer {
+    background-color: salmon;
+    padding: 5%;
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+
+}
+
+#minuteContainer {
+    background-color: salmon;
+    padding: 5%;
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+#secondContainer {
+    background-color: salmon;
+    padding: 5%;
+    font-size: 4em;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
+
+#sessionContainer {
+    background-color: green;
+    padding: 5%;
+    font-size: 4em;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 10px 10px 5px rgb(95, 10, 10);
+}
